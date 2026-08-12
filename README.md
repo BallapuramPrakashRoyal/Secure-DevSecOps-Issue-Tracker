@@ -145,20 +145,6 @@ npm test
 
 Covers: registration, login (success/failure), missing/invalid/expired JWT, viewer/developer attempting unauthorized operations, authorized issue creation, IDOR/BOLA protection, and input validation failures.
 
-## Example / Demo Credentials
-
-Seeded by `npm run seed` — for local development only, never use in production:
-
-| Role | Email | Password |
-|---|---|---|
-| ADMIN | admin@demo.local | AdminPass123! |
-| DEVELOPER | developer@demo.local | DevPass123! |
-| VIEWER | viewer@demo.local | ViewerPass123! |
-
-## Screenshots
-
-_Add screenshots of the dashboard, issue list, and admin panel here before publishing._
-
 ## Security Considerations
 
 See [`SECURITY.md`](SECURITY.md) for the full threat model, mitigations, and known limitations (e.g. JWT storage in `localStorage`, no MFA, no refresh-token rotation).
